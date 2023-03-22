@@ -12,7 +12,23 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content={metadata.description} />
+        <link rel="icon" href="/favicon.ico" />
+        <title>{metadata.title}</title>
+      </head>
+      <body>
+          <div className="flex">
+
+            {/* Side bar */}
+
+            {/* ClientProvide - Notification */}
+
+            <div className="bg-[#343541] flex-1">{children}</div>
+          </div>
+      </body>
     </html>
   )
 }
