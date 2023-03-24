@@ -13,9 +13,11 @@ export default function Home() {
           {/*  Sun icon */}
             <h2>Examples</h2>
           </div>
-          <div>
+          <div className="space-y-2">
           {/*  text p with class infoText*/}
-            <p className="infoText">Explain hello</p>
+            <p className="infoText">&#34;Lorem ipsum dolor sit amet, consectetur adipisicing elit.&#34;</p>
+            <p className="infoText">&#34;Lorem ipsum dolor sit amet.&#34;</p>
+            <p className="infoText">&#34;Explain hello, Lorem ipsum dolor sit.&#34;</p>
           </div>
         </div>
       </div>
